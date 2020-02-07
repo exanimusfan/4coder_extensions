@@ -1,16 +1,16 @@
 /*
 4coder_load_projects.cpp - Command to choose between which project you want to load.
-	In order to work it your own paths to your projects have to be hardcoded and each path
-	should contain an project.4coder file.
+	In order to make it work, your own paths to your projects have to be hardcoded
+	and each path should contain an project.4coder file.
 */
 
 // TOP
 
 // This command is here to show that you could use project_listers instead of load_project at startup
-// Use this in your custom_layer_init
+// Use this in your binding map function BindCore(viccarau_startup, CoreCode_Startup);
 
 CUSTOM_COMMAND_SIG(viccarau_startup)
-CUSTOM_DOC("Default command for responding to a startup event")
+CUSTOM_DOC("Viccarau's command for responding to a startup event")
 {
     ProfileScope(app, "viccaru startup");
     User_Input input = get_current_input(app);
