@@ -36,7 +36,7 @@ CUSTOM_DOC("close all files that are opened no matter the extension")
 	}
 }
 
-CUSTOM_UI_COMMAND_SIG(project_listers)
+CUSTOM_UI_COMMAND_SIG(projects_lister)
 CUSTOM_DOC("List of all your projects")
 {
 	Scratch_Block scratch(app);
